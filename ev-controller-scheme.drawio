@@ -144,6 +144,24 @@
         <mxCell id="7MsEQUMzbARziqOLfGt7-47" value="LED strips" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="500" width="80" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="7MsEQUMzbARziqOLfGt7-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7MsEQUMzbARziqOLfGt7-56" target="7MsEQUMzbARziqOLfGt7-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7MsEQUMzbARziqOLfGt7-56" value="&lt;div&gt;Solar Panel 60w 40v&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7MsEQUMzbARziqOLfGt7-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7MsEQUMzbARziqOLfGt7-57" target="7MsEQUMzbARziqOLfGt7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7MsEQUMzbARziqOLfGt7-57" value="&lt;div&gt;Solar 12v Controller&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7MsEQUMzbARziqOLfGt7-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7MsEQUMzbARziqOLfGt7-61" target="7MsEQUMzbARziqOLfGt7-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7MsEQUMzbARziqOLfGt7-61" value="&lt;div&gt;Charger 220v&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
