@@ -1,2 +1,10 @@
-# electric-vehicle-schemes
-Public EV connection schemes. Mostly for 48v e-bike or other ev like, tricycle, gold-cart. Also - batteries, solar panels.
+# Electric Vehicle Sschemes
+Public EV connection schemes. Mostly for 48v e-bike or other ev like, tricycle, golf-cart. Also - batteries, solar panels.
+
+## Electric Microcamper Overview Scheme
+1. https://github.com/diviatrix/electric-vehicle-schemes/blob/main/ev-camper-electric-scheme.drawio
+2. Scheme is for "top level" electrics, yet it can show you what to get and how to connect it.
+3. My camper is based on chinese 4wheeler "golf-car". I removed original top fully, and wielded new body.
+4. Scheme is suitable for any 48v vehicle of type, but you can easily modify it.
+5. Full scheme probably will come sometime, with list of devices
+6. ![DIY EV RV in progress](https://github.com/diviatrix/electric-vehicle-schemes/blob/main/photo_2025-06-07_10-40-54.jpg)
