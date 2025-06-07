@@ -1,5 +1,6 @@
-# EV Microcamper Overview Electrikc Scheme
-Public EV connection schemes. Mostly for 48v e-bike or other ev like, tricycle, golf-cart. Also - batteries, solar panels.
+# Electric Vehicle Schemes
+Public EV connection schemes. Mostly for 48v e-bike or other ev like, tricycle, golf-carts. 
+Also - batteries, solar panels, RV, Campervan DIY and more to come.
 
 ## Electric Microcamper Overview Scheme
 <a href="https://github.com/diviatrix/electric-vehicle-schemes/blob/main/ev-rv-vehicle/ev-rv-vehicle-electric-scheme.png"> <img src="https://github.com/diviatrix/electric-vehicle-schemes/blob/main/ev-rv-vehicle/ev-rv-vehicle-electric-scheme.png" alt="EV Microcamper Overview Electrikc Scheme" height="300" target="_blank"></a><img src ="https://github.com/diviatrix/electric-vehicle-schemes/blob/main/ev-rv-vehicle/pic.jpg" alt="EV Microcamper RV in progress" height="300">
