@@ -1,15 +1,45 @@
-<script>
-    fetch('README.md')
-        .then(response => response.text())
-        .then(text => {
-            // Replace relative image paths with correct paths
-            const basePath = './'; // Adjust if your images are in a subfolder
-            const fixedText = text.replace(/!\[([^\]]*)\]\((?!https?:\/\/|\/)([^)]+)\)/g, (match, alt, src) => {
-                return `![${alt}](${basePath}${src})`;
-            });
-            document.getElementById('content').innerHTML = marked.parse(fixedText);
-        })
-        .catch(() => {
-            document.getElementById('content').textContent = 'Could not load README.md';
-        });
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Electric Vehicle Schemes</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="max-w-3xl mx-auto p-6">
+        <header class="mb-8">
+            <h1 class="text-4xl font-extrabold text-blue-700 mb-2">Electric Vehicle Schemes</h1>
+            <p class="text-lg text-gray-700">Public EV connection schemes. Mostly for <span class="font-semibold">48v e-bike</span> or other EVs like tricycles, golf-carts.<br>
+                Also: batteries, solar panels, RV, Campervan DIY and more to come.
+            </p>
+        </header>
+
+        <section class="bg-white rounded-xl shadow-lg p-6 mb-8">
+            <h2 class="text-2xl font-bold text-green-700 mb-4 flex items-center">
+                <svg class="w-6 h-6 mr-2 text-green-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 16h-1v-4h-1m1-4h.01M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+                Electric Microcamper Overview Scheme
+            </h2>
+            <div class="flex flex-col md:flex-row gap-4 mb-4">
+                <a href="https://github.com/diviatrix/electric-vehicle-schemes/blob/main/ev-rv-vehicle/ev-rv-vehicle-electric-scheme.png?raw=true" target="_blank" class="md:w-1/2">
+                    <img src="https://github.com/diviatrix/electric-vehicle-schemes/blob/main/ev-rv-vehicle/ev-rv-vehicle-electric-scheme.png" alt="EV Microcamper Overview Electric Scheme" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-200 w-full h-auto">
+                </a>
+                <img src="https://github.com/diviatrix/electric-vehicle-schemes/blob/main/ev-rv-vehicle/pic.jpg?raw=true" alt="EV Microcamper RV in progress" class="rounded-lg shadow-md md:w-1/2 w-full h-auto">
+            </div>
+            <ol class="list-decimal list-inside text-gray-800 space-y-2">
+                <li>
+                    <a href="https://github.com/diviatrix/electric-vehicle-schemes/blob/main/ev-rv-vehicle/ev-camper-electric-scheme.drawio" class="text-blue-600 hover:underline" target="_blank">
+                        ev-camper-electric-scheme.drawio
+                    </a>
+                    <span class="text-gray-500">(open with draw.io)</span>
+                </li>
+                <li>Scheme is for <span class="font-semibold">"top level"</span> electrics, yet it can show you what to get and how to connect it.</li>
+                <li>My camper is based on a Chinese 4-wheeler "golf-car". I removed the original top fully, and welded a new body.</li>
+                <li>Scheme is suitable for any 48v vehicle of this type, but you can easily modify it.</li>
+                <li>Full scheme probably will come sometime, with list of devices.</li>
+            </ol>
+        </section>
+    </div>
+</body>
+</html>
